@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "heroku-postbuild":"cd /frontend npm install && npm run build"
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=true cd /frontend npm install && npm run build"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,6 @@
     "nodemon": "^1.19.4"
   },
   "engines":{
-    "node":"10.16.0"
+    "node":"12.13.0"
   }
 }
