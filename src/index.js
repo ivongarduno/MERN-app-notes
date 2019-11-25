@@ -1,5 +1,5 @@
 require('dotenv').config(); //llama a las variables de entorno
-const app = require('./app');
+const app = require('./app.js');
 require('./database');
 
 const main = async () =>{
